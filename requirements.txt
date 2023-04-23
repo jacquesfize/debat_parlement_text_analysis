@@ -1,0 +1,7 @@
+beautifulsoup4
+tqdm
+pandas
+editdistance
+joblib
+dateparser
+spacy
