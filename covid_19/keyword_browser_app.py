@@ -18,8 +18,12 @@ def generate_bar_plot(dataframe,keywords,bar=False):
     fig.update_xaxes(rangeslider_visible=True)
     return fig
 
-app = Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP,"https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"])
+app = Dash(__name__,
+           external_stylesheets=[dbc.themes.BOOTSTRAP,"https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"],
+           title="Keywords Explorer")
+
 app.css.config.serve_locally = True
+
 
 app.layout = html.Div([
     html.Div([

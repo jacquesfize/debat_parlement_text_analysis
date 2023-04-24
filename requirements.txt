@@ -5,3 +5,7 @@ editdistance
 joblib
 dateparser
 spacy
+stop-words
+dash
+plotly
+dash-bootstrap-components
